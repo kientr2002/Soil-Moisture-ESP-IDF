@@ -6,6 +6,13 @@
 #include "driver/adc.h"
 #include "esp_adc_cal.h"
 
+
+/*SET UP PORT:
+VCC - 3V port
+GND - GND port
+DO - NOTHING
+AO - GPIO34 port
+*/
 static const char *TAG = "ADC EXAMPLE";
 
 static esp_adc_cal_characteristics_t adc1_chars;
